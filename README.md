@@ -1,2 +1,0 @@
-# ariyana
-ariyana

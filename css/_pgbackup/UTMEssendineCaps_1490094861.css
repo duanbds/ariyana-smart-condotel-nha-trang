@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'UTMEssendineCaps';
-    src: url('fonts/UTMEssendineCaps.eot');
-    src: url('fonts/UTMEssendineCaps.eot') format('embedded-opentype'),
-         url('fonts/UTMEssendineCaps.woff2') format('woff2'),
-         url('fonts/UTMEssendineCaps.woff') format('woff'),
-         url('fonts/UTMEssendineCaps.ttf') format('truetype'),
-         url('fonts/UTMEssendineCaps.svg#UTMEssendineCaps') format('svg');
-}
