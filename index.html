@@ -58,7 +58,7 @@
     <script type='text/javascript' src='wp-content/themes/ariyananhatrang/assets/scripts/main2608-ver=0.4.js'></script>
     <link rel='https://api.w.org/' href='wp-json/index.html' />
     <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
+    <!--<script type="text/javascript">
         var Tawk_API = Tawk_API || {},
             Tawk_LoadStart = new Date();
         (function() {
@@ -70,8 +70,38 @@
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
         })();
-    </script>
+    </script>-->
     <!--End of Tawk.to Script-->
+    <!-- WhatsHelp.io widget -->
+    <script type="text/javascript">
+        (function() {
+            var options = {
+                facebook: "1490316401035071", // Facebook page ID
+                email: "ariyana@naka.vn", // Email
+                sms: "+84938662488", // Sms phone number
+                call: "+84938662488", // Call phone number
+                company_logo_url: "//scontent.xx.fbcdn.net/v/t1.0-1/p50x50/17759916_1490333181033393_2015528505967827930_n.jpg?oh=2ac79ae8b1f524e61927d19aec20a298&oe=5994C1BC", // URL of company logo (png, jpg, gif)
+                greeting_message: "Chào Quý khách hàng! Quý khách cần thông tin gì? ", // Text of greeting message
+                call_to_action: "Tư Vấn Ngay", // Call to action
+                button_color: "#129BF4", // Color of button
+                position: "right", // Position may be 'right' or 'left'
+                order: "facebook,call,sms,email" // Order of buttons
+            };
+            var proto = document.location.protocol,
+                host = "whatshelp.io",
+                url = proto + "//static." + host;
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function() {
+                WhWidgetSendButton.init(host, proto, options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        })();
+    </script>
+    <!-- /WhatsHelp.io widget -->
     <!-- Google Tag Manager -->
     <script>
         (function(w, d, s, l, i) {
